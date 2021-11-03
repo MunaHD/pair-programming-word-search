@@ -1,3 +1,5 @@
+//pair-praogrammed with Desiree Mendes
+
 const wordSearch = (letters, word) => { 
     const horizontalJoin = letters.map(ls => ls.join(''))
     if (word === []) return false;
